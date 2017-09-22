@@ -94,7 +94,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the ReportRequestId property.
      * 
      * @param string ReportRequestId
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setReportRequestId($value) 
     {
@@ -139,7 +139,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setReportType($value) 
     {
@@ -184,7 +184,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the StartDate property.
      * 
      * @param string StartDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setStartDate($value) 
     {
@@ -229,7 +229,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the EndDate property.
      * 
      * @param string EndDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setEndDate($value) 
     {
@@ -274,7 +274,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the Scheduled property.
      * 
      * @param string Scheduled
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setScheduled($value) 
     {
@@ -320,7 +320,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the SubmittedDate property.
      * 
      * @param string SubmittedDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setSubmittedDate($value) 
     {
@@ -365,7 +365,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the ReportProcessingStatus property.
      * 
      * @param string ReportProcessingStatus
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setReportProcessingStatus($value) 
     {
@@ -410,7 +410,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the GeneratedReportId property.
      *
      * @param string GeneratedReportId
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setGeneratedReportId($value)
     {
@@ -454,7 +454,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the StartedProcessingDate property.
      *
      * @param string StartedProcessingDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setStartedProcessingDate($value)
     {
@@ -498,7 +498,7 @@ class MarketplaceWebService_Model_ReportRequestInfo extends MarketplaceWebServic
      * Sets the value of the CompletedDate property.
      *
      * @param string CompletedDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportRequestInfo instance
      */
     public function setCompletedDate($value)
     {

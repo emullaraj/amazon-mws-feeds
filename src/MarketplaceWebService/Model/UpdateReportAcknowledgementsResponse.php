@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_UpdateReportAcknowledgementsResponse extends M
     /**
      * Gets the value of the UpdateReportAcknowledgementsResult.
      * 
-     * @return UpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
+     * @return MarketplaceWebService_Model_UpdateReportAcknowledgementsResult UpdateReportAcknowledgementsResult
      */
     public function getUpdateReportAcknowledgementsResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_UpdateReportAcknowledgementsResponse extends M
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

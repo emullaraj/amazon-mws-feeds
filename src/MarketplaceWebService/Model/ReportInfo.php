@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the ReportId property.
      * 
      * @param string ReportId
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setReportId($value) 
     {
@@ -131,7 +131,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setReportType($value) 
     {
@@ -176,7 +176,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the ReportRequestId property.
      * 
      * @param string ReportRequestId
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setReportRequestId($value) 
     {
@@ -221,7 +221,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the AvailableDate property.
      * 
      * @param string AvailableDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setAvailableDate($value) 
     {
@@ -266,7 +266,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the Acknowledged property.
      * 
      * @param bool Acknowledged
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setAcknowledged($value) 
     {
@@ -311,7 +311,7 @@ class MarketplaceWebService_Model_ReportInfo extends MarketplaceWebService_Model
      * Sets the value of the AcknowledgedDate property.
      * 
      * @param string AcknowledgedDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportInfo instance
      */
     public function setAcknowledgedDate($value) 
     {

@@ -93,7 +93,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -138,7 +138,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setMerchant($value) 
     {
@@ -183,7 +183,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -217,7 +217,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
     /**
      * Gets the value of the ReportRequestIdList.
      * 
-     * @return IdList ReportRequestIdList
+     * @return MarketplaceWebService_Model_IdList ReportRequestIdList
      */
     public function getReportRequestIdList() 
     {
@@ -263,7 +263,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return MarketplaceWebService_Model_TypeList ReportTypeList
      */
     public function getReportTypeList() 
     {
@@ -309,7 +309,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
     /**
      * Gets the value of the ReportProcessingStatusList.
      * 
-     * @return StatusList ReportProcessingStatusList
+     * @return MarketplaceWebService_Model_StatusList ReportProcessingStatusList
      */
     public function getReportProcessingStatusList() 
     {
@@ -366,7 +366,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the MaxCount property.
      * 
      * @param Count MaxCount
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setMaxCount($value) 
     {
@@ -411,7 +411,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the RequestedFromDate property.
      * 
      * @param string RequestedFromDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setRequestedFromDate($value) 
     {
@@ -456,7 +456,7 @@ class MarketplaceWebService_Model_GetReportRequestListRequest extends Marketplac
      * Sets the value of the RequestedToDate property.
      * 
      * @param string RequestedToDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequestListRequest instance
      */
     public function setRequestedToDate($value) 
     {

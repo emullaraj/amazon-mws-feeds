@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportRequestCountResponse extends Marketpl
     /**
      * Gets the value of the GetReportRequestCountResult.
      * 
-     * @return GetReportRequestCountResult GetReportRequestCountResult
+     * @return MarketplaceWebService_Model_GetReportRequestCountResult GetReportRequestCountResult
      */
     public function getGetReportRequestCountResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportRequestCountResponse extends Marketpl
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

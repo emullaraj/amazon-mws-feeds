@@ -108,7 +108,7 @@ class MarketplaceWebService_Model_UpdateReportAcknowledgementsResult extends Mar
     /**
      * Gets the value of the ReportInfo.
      * 
-     * @return array of ReportInfo ReportInfo
+     * @return MarketplaceWebService_Model_ReportInfo[] ReportInfo
      */
     public function getReportInfoList() 
     {
@@ -119,7 +119,7 @@ class MarketplaceWebService_Model_UpdateReportAcknowledgementsResult extends Mar
      * Sets the value of the ReportInfo.
      * 
      * @param mixed ReportInfo or an array of ReportInfo ReportInfo
-     * @return this instance
+     * @return MarketplaceWebService_Model_UpdateReportAcknowledgementsResult instance
      */
     public function setReportInfoList($reportInfo) 
     {

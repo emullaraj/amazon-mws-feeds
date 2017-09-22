@@ -90,7 +90,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_RequestReportRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -135,7 +135,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_RequestReportRequest instance
      */
     public function setMerchant($value) 
     {
@@ -214,7 +214,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
     /**
      * Gets the value of the MarketplaceIdList.
      * 
-     * @return IdList MarketplaceIdList
+     * @return MarketplaceWebService_Model_IdList MarketplaceIdList
      */
     public function getMarketplaceIdList() 
     {
@@ -273,7 +273,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return this instance
+     * @return MarketplaceWebService_Model_RequestReportRequest instance
      */
     public function setReportType($value) 
     {
@@ -363,7 +363,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
      * Sets the value of the EndDate property.
      * 
      * @param string EndDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_RequestReportRequest instance
      */
     public function setEndDate($value) 
     {
@@ -408,7 +408,7 @@ class MarketplaceWebService_Model_RequestReportRequest extends MarketplaceWebSer
      * Sets the value of the ReportOptions property.
      * 
      * @param string ReportOptions
-     * @return this instance
+     * @return MarketplaceWebService_Model_RequestReportRequest instance
      */
     public function setReportOptions($value) 
     {

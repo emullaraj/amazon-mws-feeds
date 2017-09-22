@@ -71,7 +71,7 @@ class MarketplaceWebService_Model_TypeList extends MarketplaceWebService_Model
      * Sets the value of the Type.
      * 
      * @param string or an array of string Type
-     * @return this instance
+     * @return MarketplaceWebService_Model_TypeList instance
      */
     public function setType($type) 
     {

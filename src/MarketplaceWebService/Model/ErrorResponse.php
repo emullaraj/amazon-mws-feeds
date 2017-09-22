@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_ErrorResponse extends MarketplaceWebService_Mo
     /**
      * Gets the value of the Error.
      * 
-     * @return array of Error Error
+     * @return MarketplaceWebService_Model_Error[]
      */
     public function getError() 
     {
@@ -97,7 +97,7 @@ class MarketplaceWebService_Model_ErrorResponse extends MarketplaceWebService_Mo
      * Sets the value of the Error.
      * 
      * @param mixed Error or an array of Error Error
-     * @return this instance
+     * @return MarketplaceWebService_Model_ErrorResponse instance
      */
     public function setError($error) 
     {
@@ -151,7 +151,7 @@ class MarketplaceWebService_Model_ErrorResponse extends MarketplaceWebService_Mo
      * Sets the value of the RequestId property.
      * 
      * @param string RequestId
-     * @return this instance
+     * @return MarketplaceWebService_Model_ErrorResponse instance
      */
     public function setRequestId($value) 
     {

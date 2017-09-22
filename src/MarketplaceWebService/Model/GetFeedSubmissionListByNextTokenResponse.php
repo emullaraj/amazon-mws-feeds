@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResponse exten
     /**
      * Gets the value of the GetFeedSubmissionListByNextTokenResult.
      * 
-     * @return GetFeedSubmissionListByNextTokenResult GetFeedSubmissionListByNextTokenResult
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult GetFeedSubmissionListByNextTokenResult
      */
     public function getGetFeedSubmissionListByNextTokenResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResponse exten
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

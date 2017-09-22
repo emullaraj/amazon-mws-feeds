@@ -60,7 +60,7 @@ class MarketplaceWebService_Model_SubmitFeedResult extends MarketplaceWebService
         /**
      * Gets the value of the FeedSubmissionInfo.
      * 
-     * @return FeedSubmissionInfo FeedSubmissionInfo
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo FeedSubmissionInfo
      */
     public function getFeedSubmissionInfo() 
     {
@@ -70,7 +70,7 @@ class MarketplaceWebService_Model_SubmitFeedResult extends MarketplaceWebService
     /**
      * Sets the value of the FeedSubmissionInfo.
      * 
-     * @param FeedSubmissionInfo FeedSubmissionInfo
+     * @param MarketplaceWebService_Model_FeedSubmissionInfo FeedSubmissionInfo
      * @return void
      */
     public function setFeedSubmissionInfo($value) 
@@ -82,7 +82,7 @@ class MarketplaceWebService_Model_SubmitFeedResult extends MarketplaceWebService
     /**
      * Sets the value of the FeedSubmissionInfo  and returns this instance
      * 
-     * @param FeedSubmissionInfo $value FeedSubmissionInfo
+     * @param MarketplaceWebService_Model_FeedSubmissionInfo $value FeedSubmissionInfo
      * @return MarketplaceWebService_Model_SubmitFeedResult instance
      */
     public function withFeedSubmissionInfo($value)

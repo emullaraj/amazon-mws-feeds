@@ -122,7 +122,7 @@ class MarketplaceWebService_Model_ReportSchedule extends MarketplaceWebService_M
      * Sets the value of the Schedule property.
      * 
      * @param string Schedule
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportSchedule instance
      */
     public function setSchedule($value) 
     {
@@ -167,7 +167,7 @@ class MarketplaceWebService_Model_ReportSchedule extends MarketplaceWebService_M
      * Sets the value of the ScheduledDate property.
      * 
      * @param string ScheduledDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_ReportSchedule instance
      */
     public function setScheduledDate($value) 
     {

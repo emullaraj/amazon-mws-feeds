@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportRequestListResponse extends Marketpla
     /**
      * Gets the value of the GetReportRequestListResult.
      * 
-     * @return GetReportRequestListResult GetReportRequestListResult
+     * @return MarketplaceWebService_Model_GetReportRequestListResult GetReportRequestListResult
      */
     public function getGetReportRequestListResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportRequestListResponse extends Marketpla
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

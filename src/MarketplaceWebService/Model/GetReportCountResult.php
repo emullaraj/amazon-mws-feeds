@@ -71,7 +71,7 @@ class MarketplaceWebService_Model_GetReportCountResult extends MarketplaceWebSer
      * Sets the value of the Count property.
      * 
      * @param int Count
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountResult instance
      */
     public function setCount($value) 
     {
