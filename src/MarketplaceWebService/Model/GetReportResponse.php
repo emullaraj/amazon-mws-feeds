@@ -186,7 +186,7 @@ class MarketplaceWebService_Model_GetReportResponse extends MarketplaceWebServic
     {
         $xml = "";
         $xml .= "<GetReportResponse xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
-        $xml .= $this->_toXMLFragment();
+        $xml .= $this->toXMLFragment();
         $xml .= "</GetReportResponse>";
         return $xml;
     }
