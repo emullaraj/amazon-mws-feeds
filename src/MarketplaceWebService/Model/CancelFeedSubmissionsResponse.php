@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_CancelFeedSubmissionsResponse extends Marketpl
     /**
      * Gets the value of the CancelFeedSubmissionsResult.
      * 
-     * @return CancelFeedSubmissionsResult CancelFeedSubmissionsResult
+     * @return MarketplaceWebService_Model_CancelFeedSubmissionsResult CancelFeedSubmissionsResult
      */
     public function getCancelFeedSubmissionsResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_CancelFeedSubmissionsResponse extends Marketpl
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

@@ -93,7 +93,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -138,7 +138,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setMerchant($value) 
     {
@@ -183,7 +183,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -217,7 +217,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
     /**
      * Gets the value of the FeedSubmissionIdList.
      * 
-     * @return IdList FeedSubmissionIdList
+     * @return MarketplaceWebService_Model_IdList FeedSubmissionIdList
      */
     public function getFeedSubmissionIdList() 
     {
@@ -274,7 +274,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the MaxCount property.
      * 
      * @param Count MaxCount
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setMaxCount($value) 
     {
@@ -308,7 +308,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
     /**
      * Gets the value of the FeedTypeList.
      * 
-     * @return TypeList FeedTypeList
+     * @return MarketplaceWebService_Model_TypeList FeedTypeList
      */
     public function getFeedTypeList() 
     {
@@ -354,7 +354,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
     /**
      * Gets the value of the FeedProcessingStatusList.
      * 
-     * @return StatusList FeedProcessingStatusList
+     * @return MarketplaceWebService_Model_StatusList FeedProcessingStatusList
      */
     public function getFeedProcessingStatusList() 
     {
@@ -411,7 +411,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the SubmittedFromDate property.
      * 
      * @param string SubmittedFromDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setSubmittedFromDate($value) 
     {
@@ -456,7 +456,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListRequest extends Marketpla
      * Sets the value of the SubmittedToDate property.
      * 
      * @param string SubmittedToDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListRequest instance
      */
     public function setSubmittedToDate($value) 
     {

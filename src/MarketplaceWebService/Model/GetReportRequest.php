@@ -79,7 +79,7 @@ class MarketplaceWebService_Model_GetReportRequest extends MarketplaceWebService
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -124,7 +124,7 @@ class MarketplaceWebService_Model_GetReportRequest extends MarketplaceWebService
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequest instance
      */
     public function setMerchant($value) 
     {
@@ -169,7 +169,7 @@ class MarketplaceWebService_Model_GetReportRequest extends MarketplaceWebService
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -261,7 +261,7 @@ class MarketplaceWebService_Model_GetReportRequest extends MarketplaceWebService
      * Sets the value of the Report property.
      * 
      * @param string Report
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportRequest instance
      */
     public function setReport($value) 
     {

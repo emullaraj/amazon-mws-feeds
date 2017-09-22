@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportScheduleCountResponse extends Marketp
     /**
      * Gets the value of the GetReportScheduleCountResult.
      * 
-     * @return GetReportScheduleCountResult GetReportScheduleCountResult
+     * @return MarketplaceWebService_Model_GetReportScheduleCountResult GetReportScheduleCountResult
      */
     public function getGetReportScheduleCountResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportScheduleCountResponse extends Marketp
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

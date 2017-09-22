@@ -77,7 +77,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult extends
      * Sets the value of the NextToken property.
      * 
      * @param string NextToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult instance
      */
     public function setNextToken($value) 
     {
@@ -122,7 +122,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult extends
      * Sets the value of the HasNext property.
      * 
      * @param bool HasNext
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult instance
      */
     public function setHasNext($value) 
     {
@@ -156,7 +156,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult extends
     /**
      * Gets the value of the FeedSubmissionInfo.
      * 
-     * @return array of FeedSubmissionInfo FeedSubmissionInfo
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo[] FeedSubmissionInfo
      */
     public function getFeedSubmissionInfoList() 
     {
@@ -167,7 +167,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult extends
      * Sets the value of the FeedSubmissionInfo.
      * 
      * @param mixed FeedSubmissionInfo or an array of FeedSubmissionInfo FeedSubmissionInfo
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListByNextTokenResult instance
      */
     public function setFeedSubmissionInfoList($feedSubmissionInfo) 
     {

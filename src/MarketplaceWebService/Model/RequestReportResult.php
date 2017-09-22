@@ -60,7 +60,7 @@ class MarketplaceWebService_Model_RequestReportResult extends MarketplaceWebServ
         /**
      * Gets the value of the ReportRequestInfo.
      * 
-     * @return ReportRequestInfo ReportRequestInfo
+     * @return MarketplaceWebService_Model_ReportRequestInfo ReportRequestInfo
      */
     public function getReportRequestInfo() 
     {

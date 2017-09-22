@@ -123,7 +123,7 @@ class MarketplaceWebService_Model_GetReportScheduleListRequest extends Marketpla
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportScheduleListRequest instance
      */
     public function setMerchant($value) 
     {
@@ -168,7 +168,7 @@ class MarketplaceWebService_Model_GetReportScheduleListRequest extends Marketpla
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportScheduleListRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -202,7 +202,7 @@ class MarketplaceWebService_Model_GetReportScheduleListRequest extends Marketpla
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return MarketplaceWebService_Model_TypeList ReportTypeList
      */
     public function getReportTypeList() 
     {

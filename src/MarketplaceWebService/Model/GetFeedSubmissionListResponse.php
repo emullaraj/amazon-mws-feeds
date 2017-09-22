@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListResponse extends Marketpl
     /**
      * Gets the value of the GetFeedSubmissionListResult.
      * 
-     * @return GetFeedSubmissionListResult GetFeedSubmissionListResult
+     * @return MarketplaceWebService_Model_GetFeedSubmissionListResult GetFeedSubmissionListResult
      */
     public function getGetFeedSubmissionListResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListResponse extends Marketpl
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

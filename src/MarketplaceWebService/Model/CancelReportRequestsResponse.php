@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_CancelReportRequestsResponse extends Marketpla
     /**
      * Gets the value of the CancelReportRequestsResult.
      * 
-     * @return CancelReportRequestsResult CancelReportRequestsResult
+     * @return MarketplaceWebService_Model_CancelReportRequestsResult CancelReportRequestsResult
      */
     public function getCancelReportRequestsResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_CancelReportRequestsResponse extends Marketpla
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

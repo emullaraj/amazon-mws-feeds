@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the FeedSubmissionId property.
      * 
      * @param string FeedSubmissionId
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setFeedSubmissionId($value) 
     {
@@ -131,7 +131,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the FeedType property.
      * 
      * @param string FeedType
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setFeedType($value) 
     {
@@ -176,7 +176,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the SubmittedDate property.
      * 
      * @param string SubmittedDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setSubmittedDate($value) 
     {
@@ -221,7 +221,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the FeedProcessingStatus property.
      * 
      * @param string FeedProcessingStatus
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setFeedProcessingStatus($value) 
     {
@@ -266,7 +266,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the StartedProcessingDate property.
      * 
      * @param string StartedProcessingDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setStartedProcessingDate($value) 
     {
@@ -311,7 +311,7 @@ class MarketplaceWebService_Model_FeedSubmissionInfo extends MarketplaceWebServi
      * Sets the value of the CompletedProcessingDate property.
      * 
      * @param string CompletedProcessingDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_FeedSubmissionInfo instance
      */
     public function setCompletedProcessingDate($value) 
     {

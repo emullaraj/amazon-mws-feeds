@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_ManageReportScheduleResponse extends Marketpla
     /**
      * Gets the value of the ManageReportScheduleResult.
      * 
-     * @return ManageReportScheduleResult ManageReportScheduleResult
+     * @return MarketplaceWebService_Model_ManageReportScheduleResult ManageReportScheduleResult
      */
     public function getManageReportScheduleResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_ManageReportScheduleResponse extends Marketpla
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

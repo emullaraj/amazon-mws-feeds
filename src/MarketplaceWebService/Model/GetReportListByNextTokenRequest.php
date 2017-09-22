@@ -78,7 +78,7 @@ class MarketplaceWebService_Model_GetReportListByNextTokenRequest extends Market
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportListByNextTokenRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -168,7 +168,7 @@ class MarketplaceWebService_Model_GetReportListByNextTokenRequest extends Market
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportListByNextTokenRequest instance
      */
     public function setMWSAuthToken($value)
     {

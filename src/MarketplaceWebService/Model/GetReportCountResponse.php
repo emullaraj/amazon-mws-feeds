@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportCountResponse extends MarketplaceWebS
     /**
      * Gets the value of the GetReportCountResult.
      * 
-     * @return GetReportCountResult GetReportCountResult
+     * @return MarketplaceWebService_Model_GetReportCountResult GetReportCountResult
      */
     public function getGetReportCountResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportCountResponse extends MarketplaceWebS
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

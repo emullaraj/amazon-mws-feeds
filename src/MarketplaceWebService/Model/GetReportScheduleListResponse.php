@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportScheduleListResponse extends Marketpl
     /**
      * Gets the value of the GetReportScheduleListResult.
      * 
-     * @return GetReportScheduleListResult GetReportScheduleListResult
+     * @return MarketplaceWebService_Model_GetReportScheduleListResult GetReportScheduleListResult
      */
     public function getGetReportScheduleListResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportScheduleListResponse extends Marketpl
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

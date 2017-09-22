@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportScheduleListByNextTokenResponse exten
     /**
      * Gets the value of the GetReportScheduleListByNextTokenResult.
      * 
-     * @return GetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
+     * @return MarketplaceWebService_Model_GetReportScheduleListByNextTokenResult GetReportScheduleListByNextTokenResult
      */
     public function getGetReportScheduleListByNextTokenResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportScheduleListByNextTokenResponse exten
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

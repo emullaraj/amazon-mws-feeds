@@ -84,7 +84,7 @@ class MarketplaceWebService_Model_ManageReportScheduleRequest extends Marketplac
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_ManageReportScheduleRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -129,7 +129,7 @@ class MarketplaceWebService_Model_ManageReportScheduleRequest extends Marketplac
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_ManageReportScheduleRequest instance
      */
     public function setMerchant($value) 
     {
@@ -219,7 +219,7 @@ class MarketplaceWebService_Model_ManageReportScheduleRequest extends Marketplac
      * Sets the value of the ReportType property.
      * 
      * @param string ReportType
-     * @return this instance
+     * @return MarketplaceWebService_Model_ManageReportScheduleRequest instance
      */
     public function setReportType($value) 
     {
@@ -264,7 +264,7 @@ class MarketplaceWebService_Model_ManageReportScheduleRequest extends Marketplac
      * Sets the value of the Schedule property.
      * 
      * @param string Schedule
-     * @return this instance
+     * @return MarketplaceWebService_Model_ManageReportScheduleRequest instance
      */
     public function setSchedule($value) 
     {

@@ -77,7 +77,7 @@ class MarketplaceWebService_Model_GetReportListResult extends MarketplaceWebServ
      * Sets the value of the NextToken property.
      * 
      * @param string NextToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportListResult instance
      */
     public function setNextToken($value) 
     {
@@ -122,7 +122,7 @@ class MarketplaceWebService_Model_GetReportListResult extends MarketplaceWebServ
      * Sets the value of the HasNext property.
      * 
      * @param bool HasNext
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportListResult instance
      */
     public function setHasNext($value) 
     {
@@ -156,7 +156,7 @@ class MarketplaceWebService_Model_GetReportListResult extends MarketplaceWebServ
     /**
      * Gets the value of the ReportInfo.
      * 
-     * @return array of ReportInfo ReportInfo
+     * @return MarketplaceWebService_Model_ReportInfo[] ReportInfo
      */
     public function getReportInfoList() 
     {
@@ -167,7 +167,7 @@ class MarketplaceWebService_Model_GetReportListResult extends MarketplaceWebServ
      * Sets the value of the ReportInfo.
      * 
      * @param mixed ReportInfo or an array of ReportInfo ReportInfo
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportListResult instance
      */
     public function setReportInfoList($reportInfo) 
     {

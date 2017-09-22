@@ -86,7 +86,7 @@ class MarketplaceWebService_Model_GetReportListByNextTokenResponse extends Marke
     /**
      * Gets the value of the GetReportListByNextTokenResult.
      * 
-     * @return GetReportListByNextTokenResult GetReportListByNextTokenResult
+     * @return MarketplaceWebService_Model_GetReportListByNextTokenResult GetReportListByNextTokenResult
      */
     public function getGetReportListByNextTokenResult() 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportListByNextTokenResponse extends Marke
     /**
      * Gets the value of the ResponseMetadata.
      * 
-     * @return ResponseMetadata ResponseMetadata
+     * @return MarketplaceWebService_Model_ResponseMetadata ResponseMetadata
      */
     public function getResponseMetadata() 
     {

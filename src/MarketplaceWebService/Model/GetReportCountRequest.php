@@ -87,7 +87,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the Marketplace property.
      * 
      * @param string Marketplace
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setMarketplace($value) 
     {
@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the Merchant property.
      * 
      * @param string Merchant
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setMerchant($value) 
     {
@@ -177,7 +177,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the MWSAuthToken property.
      *
      * @param string MWSAuthToken
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setMWSAuthToken($value)
     {
@@ -211,7 +211,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
     /**
      * Gets the value of the ReportTypeList.
      * 
-     * @return TypeList ReportTypeList
+     * @return MarketplaceWebService_Model_TypeList ReportTypeList
      */
     public function getReportTypeList() 
     {
@@ -268,7 +268,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the Acknowledged property.
      * 
      * @param bool Acknowledged
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setAcknowledged($value) 
     {
@@ -313,7 +313,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the AvailableFromDate property.
      * 
      * @param string AvailableFromDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setAvailableFromDate($value) 
     {
@@ -358,7 +358,7 @@ class MarketplaceWebService_Model_GetReportCountRequest extends MarketplaceWebSe
      * Sets the value of the AvailableToDate property.
      * 
      * @param string AvailableToDate
-     * @return this instance
+     * @return MarketplaceWebService_Model_GetReportCountRequest instance
      */
     public function setAvailableToDate($value) 
     {

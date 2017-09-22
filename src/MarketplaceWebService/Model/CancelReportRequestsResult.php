@@ -108,7 +108,7 @@ class MarketplaceWebService_Model_CancelReportRequestsResult extends Marketplace
     /**
      * Gets the value of the ReportRequestInfo.
      * 
-     * @return array of ReportRequestInfo ReportRequestInfo
+     * @return MarketplaceWebService_Model_ReportRequestInfo[] ReportRequestInfo
      */
     public function getReportRequestInfoList() 
     {
@@ -119,7 +119,7 @@ class MarketplaceWebService_Model_CancelReportRequestsResult extends Marketplace
      * Sets the value of the ReportRequestInfo.
      * 
      * @param mixed ReportRequestInfo or an array of ReportRequestInfo ReportRequestInfo
-     * @return this instance
+     * @return MarketplaceWebService_Model_CancelReportRequestsResult instance
      */
     public function setReportRequestInfoList($reportRequestInfo) 
     {
