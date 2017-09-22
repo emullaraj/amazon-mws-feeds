@@ -186,7 +186,7 @@ class MarketplaceWebService_Model_GetReportScheduleListResponse extends Marketpl
     {
         $xml = "";
         $xml .= "<GetReportScheduleListResponse xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
-        $xml .= $this->_toXMLFragment();
+        $xml .= $this->toXMLFragment();
         $xml .= "</GetReportScheduleListResponse>";
         return $xml;
     }
