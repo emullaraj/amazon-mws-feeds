@@ -186,7 +186,7 @@ class MarketplaceWebService_Model_GetReportRequestCountResponse extends Marketpl
     {
         $xml = "";
         $xml .= "<GetReportRequestCountResponse xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
-        $xml .= $this->_toXMLFragment();
+        $xml .= $this->toXMLFragment();
         $xml .= "</GetReportRequestCountResponse>";
         return $xml;
     }
