@@ -186,7 +186,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListResponse extends Marketpl
     {
         $xml = "";
         $xml .= "<GetFeedSubmissionListResponse xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
-        $xml .= $this->_toXMLFragment();
+        $xml .= $this->toXMLFragment();
         $xml .= "</GetFeedSubmissionListResponse>";
         return $xml;
     }
