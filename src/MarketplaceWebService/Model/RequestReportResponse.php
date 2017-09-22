@@ -186,7 +186,7 @@ class MarketplaceWebService_Model_RequestReportResponse extends MarketplaceWebSe
     {
         $xml = "";
         $xml .= "<RequestReportResponse xmlns=\"http://mws.amazonaws.com/doc/2009-01-01/\">";
-        $xml .= $this->_toXMLFragment();
+        $xml .= $this->toXMLFragment();
         $xml .= "</RequestReportResponse>";
         return $xml;
     }
