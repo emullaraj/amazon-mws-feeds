@@ -987,8 +987,14 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
    * @param $header
    * @return array
    */
-  private function parseHttpHeader($header) {
-    $parsedHeader = array ();
+  private function parseHttpHeader($header)
+  {
+    $parsedHeader = array (
+        'x-mws-request-id' => '',
+        'x-mws-response-context' => '',
+        'x-mws-timestamp' => ''
+    );
+
     foreach (explode("\n", $header) as $line) {
       $splitLine = preg_split('/:\s/', $line, 2, PREG_SPLIT_NO_EMPTY);
 
