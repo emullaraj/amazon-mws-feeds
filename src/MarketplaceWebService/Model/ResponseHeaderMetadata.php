@@ -132,7 +132,7 @@ class MarketplaceWebService_Model_ResponseHeaderMetadata
         $result = '';
 
         foreach ($this->metadata as $headerName => $headerValue) {
-            $result += "$headerName: $headerValue, ";
+            $result .= "$headerName: $headerValue, ";
         }
 
         return rtrim(', ', $result);
