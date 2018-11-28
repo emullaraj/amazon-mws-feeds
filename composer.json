@@ -1,10 +1,9 @@
 {
     "name": "emullaraj/amazon-mws-feeds",
-    "type": "library",
+    "license": "Apache-2.0",
     "description": "Amazon Marketplace Web Service Feeds PHP Client Library",
     "keywords": ["amazon", "mws", "feeds", "client", "api", "library"],
     "homepage": "https://developer.amazonservices.com/",
-    "licence": "Apache-2.0",
     "authors": [
         {
           "name": "Eno Mullraj",
@@ -12,7 +11,7 @@
         }
     ],
     "require": {
-        "php": ">=5.2.8",
+        "php": ">=7.0",
         "ext-curl": "*"
     },
     "autoload": {
