@@ -1,6 +1,6 @@
 <?php
 /** 
- *  PHP Version 5
+ *  PHP Version 7
  *
  *  @category    Amazon
  *  @package     MarketplaceWebService
@@ -62,9 +62,10 @@ class MarketplaceWebService_Model_ContentType  extends MarketplaceWebService_Mod
     	$this->fields['Parameters']['FieldValue'] = $parameters;
         return $this;
     }
-    
-    public function isSetParameters() {
-    	return count ($this->fields['Parameters']['FieldValue']) > 0;
+
+    public function isSetParameters()
+    {
+        return is_array($this->fields['Parameters']['FieldValue']) && count($this->fields['Parameters']['FieldValue']) > 0;
     }
 
 	public function toString() {

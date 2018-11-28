@@ -107,7 +107,7 @@ class MarketplaceWebService_Model_StatusList extends MarketplaceWebService_Model
      */
     public function isSetStatus()
     {
-        return count ($this->fields['Status']['FieldValue']) > 0;
+        return count($this->fields['Status']['FieldValue']) > 0;
     }
 
 
