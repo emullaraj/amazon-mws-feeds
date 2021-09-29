@@ -1128,6 +1128,10 @@ class MarketplaceWebService_Client implements MarketplaceWebService_Interface
       throw new InvalidArgumentException("$action is not a valid request type.");
     }
 
+	  
+    $curlOptions[CURLOPT_CONNECTTIMEOUT] = 15; 
+    $curlOptions[CURLOPT_TIMEOUT] = 60;
+	  
     return $curlOptions;
   }
 
